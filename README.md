@@ -1,5 +1,40 @@
-# learnopengl.com code repository
-Contains code samples for all tutorials of [https://learnopengl.com](https://learnopengl.com). 
+# Halloween themed Game
+Halloween themed opengl program using c++. 
+
+Program has the following features:
+- A scene with multiple models including a ghosdt, grave, doors, skeleton, sign, house, fence, tree and oil lamp.
+- Ability to zoom in and out using '1' and '3'.
+- Ability to change between orthographic and perspective projection using 'P'.
+- Ability to move, jump and interact with the world. 'WASD', 'SPACE' and 'F' respectively. Also a sprint feature with the 'SHIFT' key.
+- Ability to rotate up and down with 'E' and 'Q'.
+- A full bright feature, when 'O' is pressed. 
+- Multiple animations for some of the models.
+- An oil lamp, with light properties. The lighting in the scene adapts to the lamp. 
+- Ability to increase brightness of lamp using 'K' and decrease using 'L'. 
+
+
+## Compiling and Running
+Libraries included are GLFW, GLAD, GLM and ASSIMP. Program was tested and developed on Linux Ubuntu. 
+Code is located in 
+```
+OpenGL->src->3.openGL_tutorial->sample_2->sample2.cpp
+```
+Compiling:
+1. From "OpenGL" Go into "build".
+2. run ```cmake```
+3. run ```make```
+Running:
+1. In "OpenGL" go to "Build" and then "bin" then "3.openGL_tutorial" and then just execute the program.  All the executables 
+are located in the bin folder. 
+
+# References
+Note this program was developed with help using [https://learnopengl.com](https://learnopengl.com). 
+All of the code I created is located in
+```
+OpenGL->src->3.openGL_tutorial->sample_2->sample2.cpp
+```
+Other resources I created can be found in the resources folder and shader folders. 
+Everything else can be assumed to be either resources provided from learnopengl or resources provided to us by Curtin University, and I did not produce them. 
 
 ## Windows building
 All relevant libraries are found in /libs and all DLLs found in /dlls (pre-)compiled for Windows. 
