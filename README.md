@@ -1,5 +1,5 @@
 # Halloween themed Game
-Halloween themed opengl program using c++. 
+Halloween themed OpenGL program using C++. 
 
 Program has the following features:
 - A scene with multiple models including a ghosdt, grave, doors, skeleton, sign, house, fence, tree and oil lamp.
